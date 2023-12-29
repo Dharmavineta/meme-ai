@@ -119,7 +119,7 @@ const Dashboard = () => {
                   ),
                 }}
                 className={
-                  "text-md leading-7 font-serif px-20 lg:px-10 overflow-hidden dark:text-white"
+                  "text-md leading-7 font-serif w-full px-4 md:px-10 overflow-hidden dark:text-white"
                 }
               >
                 {res}
