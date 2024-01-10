@@ -35,11 +35,12 @@ const Dashboard = () => {
             mimeType,
           });
           if (response.status === 200) {
-            setLoading(false);
             setRes(response.data?.kwargs?.content);
           }
         } catch (error) {
           console.log(error);
+        } finally {
+          setLoading(false);
         }
       };
     }
